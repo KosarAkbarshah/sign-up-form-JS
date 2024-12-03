@@ -546,7 +546,8 @@ main {
 
         }
     }
-    .footer{
+
+    .footer {
         position: absolute;
         z-index: 2;
         bottom: 0;
@@ -556,18 +557,20 @@ main {
         justify-content: center;
         transform: translateX(-50%);
         background-color: #CBC0D3;
-        color:rgba(70, 55, 70, 0.582);
+        color: rgba(70, 55, 70, 0.582);
         font-size: 30px;
         text-transform: capitalize;
         font-family: "Lora", serif;
         margin-bottom: 10px;
-        >a{
+
+        >a {
             color: #CE7D88;
             text-decoration: none;
             letter-spacing: 1px;
             transition: .4s;
-            &:hover{
-                color:rgba(70, 55, 70, 0.801);
+
+            &:hover {
+                color: rgba(70, 55, 70, 0.801);
             }
         }
     }
